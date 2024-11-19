@@ -41,6 +41,7 @@ public class Solution{
 
   //Use stack and add open char index values in the stack and if we find close parenthesis remove it from stack .. if stack is empty then replace that char with # 
   // check if the stack is not empty meaning open parenthesis we need to rmeove .. iterate the stack and replace the char with # .. finally replace all # with empty space.
+  // incase if input allowed to have number and special character then we need to go for two stack.
 
 class Solution {
   public String minRemoveToMakeValid(String s) {
